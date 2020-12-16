@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<manifest>
+    <application name="PatternVerification">
+        <crown name="PatternVerification">
+            <desc>user script</desc>
+            <serves/>
+        </crown>
+        <meta key="author">AppSpace Sample</meta>
+        <meta key="version">2.5.0</meta>
+        <meta key="licensed">false</meta>
+        <meta key="priority">low</meta>
+        <meta key="tags">InspectorP,SIM4000,Image,Algorithm,Matching</meta>
+        <meta key="read-protected">false</meta>
+        <meta key="copy-protected">false</meta>
+        <entry path="pages" default="AppSpaceViewers-2.4.0.1.msdd">
+            <file type="application/zip">AppSpaceViewers-2.4.0.1.msdd</file>
+        </entry>
+        <entry path="resources">
+            <file type="image">1.bmp</file>
+            <file type="image">2.bmp</file>
+            <file type="image">3.bmp</file>
+            <file type="image">Teach.bmp</file>
+        </entry>
+        <entry path="scripts" default="PatternVerification.lua">
+            <file type="text/x-lua">PatternVerification.lua</file>
+        </entry>
+    </application>
+</manifest>
